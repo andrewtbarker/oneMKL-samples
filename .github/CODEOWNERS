@@ -1,0 +1,13 @@
+american_options/ @intel-innersource/mkl-vestex
+batched_linear_solver/ @intel-innersource/mkl-amigos
+binomial/ @intel-innersource/mkl-vestex
+black_scholes/ @intel-innersource/mkl-vestex
+block_cholesky_decomposition/ @intel-innersource/mkl-amigos
+computed_tomography/ @intel-innersource/mkl-FastFour
+fourier_correlation/ @intel-innersource/mkl-FastFour
+matrix_mul_mkl/ @intel-innersource/mkl-blas
+monte_carlo_european_opt/ @intel-innersource/mkl-vestex
+monte_carlo_pi/ @intel-innersource/mkl-vestex
+random_sampling_without_replacement/ @intel-innersource/mkl-vestex
+sparse_conjugate_gradient/ @intel-innersource/mkl-SparseRangers
+student_t_test/ @intel-innersource/mkl-vestex
