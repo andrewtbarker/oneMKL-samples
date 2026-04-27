@@ -164,6 +164,7 @@ void device_info(sycl::device const& D) {
 
 int main(int argc, char **argv)
 {
+    constexpr int max_dim = 1000000;
     auto pname = argv[0];
     int M = 4096, N = 4096, K = 4096;
     std::string type = "none";
@@ -183,7 +184,7 @@ int main(int argc, char **argv)
         K = std::atoi(argv[3]);
     }
 
-    if (M <= 0 || N <= 0 || K <= 0)
+    if (M <= 0 || N <= 0 || K <= 0 || M > max_dim || N > max_dim || K > max_dim)
         usage(pname);
 
     bool g_success = true;
